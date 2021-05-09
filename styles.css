@@ -1,27 +1,36 @@
 body, html {
   height: 100%;
   margin: 0;
+  font-family: 'Dancing Script', cursive;
+  color: #EBECBB;
 }
 
+
 .bg {
-  /* The image used */
   background-image: url("img/pexels-dids-7450561.jpg");
-
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.wrapper{
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  text-align: center;
+}
+
 .personalimgc{
-    background-image:url("img/ReinaAndMe.jpg");
-    width:50%;
+    background-image:url("img/ReinaAndMe.png");
+    width:150px;
     border-radius:50%;
     border:5px solid #FFFF;
-    box-shadow:0 0 10px #000​;
+    box-shadow:0 0 10px #000​0;
+    background-size: cover;
+  /*  vertical-align: middle; */
+
   }
 
   .personalimgc:after{
