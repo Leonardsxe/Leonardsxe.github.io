@@ -7,40 +7,45 @@ body, html {
 
 
 .bg {
-  background-image: url("img/pexels-dids-7450561.jpg");
+  background-image: url("img/ladybugtakenbyMe.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.wrapper div{
+  margin: 0 auto;
+}
+
 .wrapper{
   margin: 0 auto;
   position: absolute;
-  top: 150px;
   width: 100%;
   text-align: center;
 }
-
-.personalimgc{
+/*
+.imgcenterhor{
     background-image:url("img/ReinaAndMe.png");
     width:150px;
     border-radius:50%;
     border:5px solid #FFFF;
     box-shadow:0 0 10px #000​0;
     background-size: cover;
-  /*  vertical-align: middle; */
+    vertical-align: middle;
+    }*/
+.imgcenterhor
+{
+    display: table-cell;
+    height: 155px;
+    vertical-align: middle;
+}
 
-  }
-
-  .personalimgc:after{
-    content:"";
-    padding-bottom:100%;
-    display:block;
-  }
-
-img{
+.imgcenter{
   border-radius: 50%;
-  width: 300px;
+  width: 150px;
   border: 5px solid #FFFF;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
